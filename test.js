@@ -1,6 +1,7 @@
-var func = function(a, b, c) {
-  console.log(a, b, c);
+for(var i = 0; i < 6; i++) {
+    (function () {
+        setTimeout(() => {
+            console.log(i);
+        }, 1000);
+    })(i)
 }
-func.apply(null, [1, 2, 3])
-func.call(null, 1, 2, 3)
-func.bind(null, 1, 2, 3)()

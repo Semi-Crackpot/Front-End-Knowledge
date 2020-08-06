@@ -178,4 +178,6 @@
     - deep：发现对象内部值的变化，注意监听数组的变更不需要这么做
     - immediate：立即以表达式的当前值触发回调
 
+### $attrs 和 $listeners 详解：https://www.jianshu.com/p/ce8ca875c337
+
 ### 

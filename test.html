@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    div {
-      width: 100px;
-      height: 200px;
-      background-color: red;
-      margin-bottom: -30px;
-    }
-  </style>
 </head>
 <body>
-  <div></div>
+  <button id="box">按钮</button>
 </body>
+<script>
+  var box = document.getElementById('box')
+  box.onclick = function () {
+    location.hash = '#search'
+  }
+</script>
 </html>
